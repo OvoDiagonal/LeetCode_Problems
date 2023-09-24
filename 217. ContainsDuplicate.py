@@ -1,4 +1,4 @@
-lass Solution:
+class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         hashset = set()
         #Iterates trough the numbers adding them to the hashmap and verifiyng if the number is a duplicate
